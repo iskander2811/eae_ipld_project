@@ -4,7 +4,7 @@ import base64
     
 # ----- Page configs (tab title, favicon) -----
 st.set_page_config(
-    page_title="<Your Name> Portfolio",
+    page_title="skander karoui  Portfolio",
     page_icon="📊",
 )
 
@@ -15,13 +15,13 @@ def home_page():
         st.image("eae_img.png", width=200)
         st.header("Introduction to Programming Languages for Data")
         st.write("###")
-        st.write("***Final Project - Feb 2025***")
-        st.write("**Author:** <Your Name>")
+        st.write("**Final Project**")
+        st.write("**Author:** skander karoui")
         st.write("**Instructor:** [Enric Domingo](https://github.com/enricd)")
 
 
     # ----- Top title -----
-    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is ????</h1></div>""")  # TODO: Add your name
+    st.html("""<div style="text-align: center;"><h1 style="text-align: center;">👋 Hi! My name is skander</h1></div>""")  # TODO: Add your name
 
 
     # ----- Profile image file -----
@@ -40,7 +40,7 @@ def home_page():
 
 
     # ----- Personal title or short description -----
-    current_role = "Current Role and/or Studies or Description"   # TODO: Change this
+    current_role = "Student EAE "   # TODO: Change this
 
     st.html(f"""<div style="text-align: center;"><h4><i>{current_role}</i></h4></div>""")
 
@@ -52,17 +52,13 @@ def home_page():
 
     # TODO: Modify and adapt the following lines to your info, you can add or remove some details if you want
     st.write("""
-    - 🧑‍💻 I am a <Current Role and/or Studies> 
+    - 🧑‍💻 I am a Student  
 
-    - 🛩️ prev: <Previous Experience, Background or Studies>
+    - ❤️ Coding
+    
+    - 🏂 Football 
 
-    - ❤️ <Your Passion and/or Interests>
-
-    - 🤖 <Your Personal Projects>
-
-    - 🏂 <Your Hobbies>
-
-    - 📫 How to reach me: <Your Email>
+    - 📫 How to reach me: skaroui@student.eae.es
 
     - 🏠 Barcelona
     """)
